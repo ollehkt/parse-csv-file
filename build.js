@@ -2,7 +2,7 @@ import esbuild from 'esbuild'
 // 공통으로 사용할 옵션들
 // https://esbuild.github.io/api/#build 에서 다양한 옵션들을 확인할 수 있다.
 const baseConfig = {
-  entryPoints: ['src/index.ts', 'src/lib/index.ts'], // 컴파일할 파일
+  entryPoints: ['src/lib/index.ts'], // 컴파일할 파일
   outdir: 'dist', // 컴파일된 파일이 저장될 경로
   bundle: true, // 번들링 여부
   sourcemap: true, // 소스맵 생성 여부

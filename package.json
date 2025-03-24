@@ -1,6 +1,6 @@
 {
   "name": "parse-csv-file",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
@@ -22,11 +22,6 @@
     "typescript": "^5.8.2"
   },
   "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.js"
-    },
     "./lib": {
       "types": "./dist/lib/index.d.ts",
       "require": "./dist/lib/index.cjs",
