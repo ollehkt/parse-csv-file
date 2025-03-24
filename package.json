@@ -1,0 +1,35 @@
+{
+  "name": "parse-csv-file",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "prepack": "npm run build",
+    "build": "npm run clean && npm run build:tsc && npm run build:js",
+    "build:tsc": "npm run tsc --emitDeclarationOnly",
+    "build:js": "node build.js",
+    "clean": "rm -rf dist",
+    "tsc": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "csv 파일을 파싱 해주는 라이브러리",
+  "devDependencies": {
+    "@types/node": "^22.13.11",
+    "esbuild": "^0.25.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
+}
