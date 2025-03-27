@@ -68,6 +68,7 @@ var autoDetectType = (value) => {
       return parsed;
     }
   } catch (e) {
+    console.error(e);
   }
   return value;
 };

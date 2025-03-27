@@ -1,6 +1,6 @@
 {
   "name": "parse-csv-file",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
@@ -11,7 +11,12 @@
     "clean": "rm -rf dist",
     "tsc": "tsc"
   },
-  "keywords": [],
+  "keywords": [
+    "csv",
+    "parse",
+    "csv file",
+    "csv file parser"
+  ],
   "author": "",
   "license": "MIT",
   "description": "csv 파일을 파싱 해주는 라이브러리",
