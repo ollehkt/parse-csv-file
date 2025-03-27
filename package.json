@@ -22,10 +22,10 @@
     "typescript": "^5.8.2"
   },
   "exports": {
-    "./lib": {
-      "types": "./dist/lib/index.d.ts",
-      "require": "./dist/lib/index.cjs",
-      "import": "./dist/lib/index.js"
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     }
   },
   "files": [

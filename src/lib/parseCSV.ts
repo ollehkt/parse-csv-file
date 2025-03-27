@@ -112,6 +112,7 @@ const autoDetectType = (value: string) => {
     }
   } catch (e) {
     // JSON 파싱 실패 시 원래 문자열 반환
+    console.error(e)
   }
 
   return value
